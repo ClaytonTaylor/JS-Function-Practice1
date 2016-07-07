@@ -105,3 +105,36 @@ sun("berryflowersun");
 
 // #9
 
+/*
+
+function tiny(number) {
+	if (number < 1 && number > 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+tiny(.5);
+
+*/
+
+// # 10
+
+/*
+
+function getSeconds(time) {
+	var timeArray = time.split(":")
+	var mins = parseInt(timeArray[0]) * 60
+	var sec = parseInt(timeArray[1])
+	var total = mins + sec
+	return total
+	
+}
+
+var example1 = getSeconds("1:30")
+var example2 = getSeconds("10:25")
+console.log("Example 1: ",example1)
+console.log("Example 2: ",example2)
+
+*/
